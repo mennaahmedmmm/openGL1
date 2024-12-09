@@ -54,14 +54,6 @@ void CarBody() {
     glVertex2f(140, 152);
     glEnd();
 
-    glBegin(GL_POLYGON);  // Back light
-    glColor3ub(255, 0, 0);
-    glVertex2f(110, 92);
-    glVertex2f(115, 92);
-    glVertex2f(115, 117);
-    glVertex2f(110, 117);
-    glEnd();
-
     glBegin(GL_POLYGON);  // Window
     glColor3ub(0, 0, 0);
     glVertex2f(140, 152);
